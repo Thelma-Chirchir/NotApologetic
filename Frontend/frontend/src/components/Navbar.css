@@ -1,0 +1,53 @@
+/* Navbar container styles */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  /* Space out logo and nav links */
+  align-items: center;
+  /* Vertically center items */
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Navigation links container */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  /* Space between links */
+}
+
+/* Individual link styles */
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff9800;
+  /* Hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    /* Stack links on smaller screens */
+    gap: 10px;
+  }
+}

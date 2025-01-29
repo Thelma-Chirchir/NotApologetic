@@ -1,0 +1,125 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #222;
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Home page */
+.home-header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.cta-button {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e68a00;
+}
+
+/* Shop page */
+.shop {
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* About page */
+.about {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contact page */
+.contact {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e68a00;
+}
